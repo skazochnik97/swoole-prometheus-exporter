@@ -1,0 +1,26 @@
+{
+    "name": "skazochnik97/swoole-prometheus-exporter",
+    "description": "Prometheus swoole stats exporter",
+    "type": "library",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-swoole": ">=4.2.0"
+    },
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/skazochnik97/swoole-prometheus-exporter/issues",
+        "source": "https://github.com/skazochnik97/swoole-prometheus-exporter"
+    },
+    "homepage": "https://github.com/skazochnik97/swoole-prometheus-exporter",
+    "keywords": [
+        "swoole",
+        "prometheus"
+    ],
+    "authors": [
+        {
+            "name": "Aleksandr Sheliakin",
+            "email": "skazochnik97@gmail.com"
+        }
+    ],
+    "prefer-stable": true
+}

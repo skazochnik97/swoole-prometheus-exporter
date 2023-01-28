@@ -22,5 +22,10 @@
             "email": "skazochnik97@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Skazochnik97\\SwoolePrometheusExporter\\": "src/"
+        }
+    },
     "prefer-stable": true
 }

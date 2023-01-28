@@ -23,7 +23,7 @@ EOF;
      *
      * @param Swoole\HTTP\Server    $server
      */
-    private function __construct($server)
+    public function __construct($server)
     {
         $this->server = $server;
     }
@@ -37,6 +37,6 @@ EOF;
      */
     public function render()
     {
-        return "";
+        return $this->server->stats();
     }
 }

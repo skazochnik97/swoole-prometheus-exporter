@@ -1,5 +1,5 @@
 {
     "require": {
-        "skazochnik97/swoole-prometheus-exporter": ">0.0.1"
+        "skazochnik97/swoole-prometheus-exporter": ">0.0"
     }
 }
